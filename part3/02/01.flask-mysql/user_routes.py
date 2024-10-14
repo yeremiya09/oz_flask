@@ -50,4 +50,4 @@ def create_user_blueprint(mysql):
         cursor.close()
         return jsonify({'message': 'User deleted successfully'})
 
-    return user_blp
+    return user_blp 
