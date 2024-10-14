@@ -6,7 +6,7 @@
     <title>Users</title>
     <script>
       function fetchUsers() {
-        fetch("/users") 
+        fetch("/users")  
           .then((response) => response.json())
           .then((users) => {
             const usersList = document.getElementById("users-list");
